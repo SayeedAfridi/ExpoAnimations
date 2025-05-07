@@ -11,10 +11,12 @@
     "splash": {
       "image": "./app/assets/images/icon.png",
       "resizeMode": "cover",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "enableFullScreenImage_legacy": false
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.afridi.expoanimations"
     },
     "android": {
       "adaptiveIcon": {
