@@ -18,14 +18,15 @@ const Startup: React.FC<never> = () => {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#FA4268',
       }}
     >
       <Stack.Screen options={{ headerShown: false, animation: 'fade' }} />
       <Image
-        source={require('@assets/images/logo.png')}
+        source={require('@assets/images/A.png')}
         style={{ height: 100, width: 100, marginBottom: 32 }}
       />
-      <ActivityIndicator size='large' />
+      <ActivityIndicator size='large' color='#fff' />
     </View>
   );
 };
