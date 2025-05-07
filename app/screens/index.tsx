@@ -22,8 +22,8 @@ const Startup: React.FC<never> = () => {
     >
       <Stack.Screen options={{ headerShown: false, animation: 'fade' }} />
       <Image
-        source={require('@assets/images/icon.png')}
-        style={{ height: 136, width: 136, marginBottom: 32 }}
+        source={require('@assets/images/logo.png')}
+        style={{ height: 100, width: 100, marginBottom: 32 }}
       />
       <ActivityIndicator size='large' />
     </View>

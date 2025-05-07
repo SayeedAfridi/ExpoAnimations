@@ -4,15 +4,14 @@
     "slug": "Animations",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./app/assets/images/icon.png",
+    "icon": "./app/assets/images/logo.png",
     "scheme": "animations",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./app/assets/images/icon.png",
+      "image": "./app/assets/images/A.png",
       "resizeMode": "cover",
-      "backgroundColor": "#ffffff",
-      "enableFullScreenImage_legacy": false
+      "backgroundColor": "#FA4268"
     },
     "ios": {
       "supportsTablet": true,
@@ -20,8 +19,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./app/assets/images/icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./app/assets/images/logo.png",
+        "backgroundColor": "#FA4268"
       },
       "edgeToEdgeEnabled": true,
       "package": "dev.afridi.expoanimations"
